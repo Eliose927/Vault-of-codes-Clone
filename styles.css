@@ -1,0 +1,47 @@
+.container {
+    align-items: center;
+}
+
+.form-floating {
+    color: black;
+    width: 50%;
+    border: 5px black;
+}
+
+.card {
+
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.card h5 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.15);
+}
+
+.card {
+    transition: all 0.3s;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.nav-item {
+    transition: all 0.2s;
+}
